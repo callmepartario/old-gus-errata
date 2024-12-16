@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Caladea;
+    src:url('../fonts/Caladea-Regular.ttf') format(truetype);
+	font-style: normal;
+}
+@font-face {
+    font-family: Caladea;
+    src:url('../fonts/Caladea-Bold.ttf') format(truetype);
+	font-weight: bold;
+}
+@font-face {
+    font-family: Caladea;
+    src:url('../fonts/Caladea-Italic.ttf') format(truetype);
+	font-style: italic;
+}
+@font-face {
+    font-family: Caladea;
+    src:url('../fonts/Caladea-BoldItalic.ttf') format(truetype);
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cormorant SC';
+    src:url('../fonts/CormorantSC-Light.ttf') format(truetype);
+	font-weight: 300;
+}
+@font-face {
+    font-family: 'Cormorant SC';
+    src:url('../fonts/CormorantSC-Regular.ttf') format(truetype);
+	font-weight: 400;
+}
+@font-face {
+    font-family: 'Cormorant SC';
+    src:url('../fonts/CormorantSC-Medium.ttf') format(truetype);
+	font-weight: 500;
+}
+@font-face {
+    font-family: 'Cormorant SC';
+    src:url('../fonts/CormorantSC-Semibold.ttf') format(truetype);
+	font-weight: 600;
+}
+@font-face {
+    font-family: 'Cormorant SC';
+    src:url('../fonts/CormorantSC-Bold.ttf') format(truetype);
+	font-weight: 700;
+}
+
+body { 
+	font-family: Caladea, Georgia, 'Times New Roman', Times, serif; 
+	background-color: #3a515a !important;
+}
+
+h1, h2, h3, h4, h5, h6, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'Cormorant SC', Georgia, 'Times New Roman', Times, serif;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-weight: 600;
+}
+
+a { color: #facc8e; }
+a:hover { color: #fca832; }
+
+a.btn-oge { 
+	color: #facc8e; 
+	border-color: #facc8e !important;
+	background-color: #2f2c35 !important;
+}
+a.btn-oge:hover { 
+	color: #fca832;
+	border-color: #fca832 !important;
+	background-color: #35333e !important;
+}
+
+.oge-border { border-bottom: 0.2em solid #8dc3d9; }
+
+h1, h2, h3, h4, h5, h6, .h2, .h3, .h4, .h5, .h6, .oge-sidebar, .oge-updated { color: #8dc3d9; }
+
+.oge-sidebar, .oge-updated { font-style: italic; }
+
+.oge-sidebar { 
+	border-left: 0.2em solid #8dc3d9; 
+	padding-left: 1em;
+}
+
+.lead { color: #cfdfe5; }
